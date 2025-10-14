@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>個人名片</title>
+    <style>
+        body {
+            background: linear-gradient(135deg, #f8fafc 0%, #e0e7ff 100%);
+            font-family: 'Segoe UI', '微軟正黑體', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .card {
+            width: 500px;
+            max-width: 90vw;
+            margin: 60px auto;
+            display: flex;
+            box-shadow: 0 8px 32px rgba(60, 60, 120, 0.15);
+            border-radius: 24px;
+            overflow: hidden;
+            background: #fff;
+        }
+        .card-left {
+            width: 220px;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(120deg, #6366f1 60%, #818cf8 100%);
+        }
+        .card-left .img-mask {
+            width: 160px;
+            height: 160px;
+            clip-path: none;
+            overflow: hidden;
+            box-shadow: 0 4px 24px rgba(60, 60, 120, 0.18);
+            border: 6px solid #fff;
+            background: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .card-left img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            display: block;
+        }
+        .card-right {
+            flex: 1;
+            padding: 32px 24px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .card-right h1 {
+            margin: 0 0 12px 0;
+            font-size: 2rem;
+            color: #3730a3;
+            letter-spacing: 2px;
+        }
+        .card-right h2 {
+            margin: 0 0 18px 0;
+            font-size: 1.2rem;
+            color: #6366f1;
+            font-weight: 500;
+        }
+        .card-right p {
+            margin: 0 0 8px 0;
+            color: #444;
+            font-size: 1rem;
+        }
+        .card-right .contact {
+            margin-top: 18px;
+            font-size: 0.98rem;
+            color: #6366f1;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="card-left">
+            <div class="img-mask">
+                <img src="myself1.jpg" alt="個人照片">
+            </div>
+        </div>
+        <div class="card-right">
+            <h1>邱昱傑
+            <h2>學生 / 網頁設計愛好者</h2>
+            <p>國立台北教育大學 資訊科學系</p>
+            <p>熱愛前端技術、設計與創新</p>
+            <div class="contact">
+                Email: s111416034@stu.ntue.edu.tw
+                Phone: 02-6639-6688
+            </div>
+        </div>
+    </div>
+</body>
+</html>
