@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- 頁面標題：設定標題、編碼、viewport 以及載入 w3.css 樣式 -->
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+<style>
+body {font-family: "Times New Roman", Georgia, Serif;}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display";
+  letter-spacing: 5px;
+}
+</style>
+</head>
+<body>
+
+<!-- 導覽列（Navbar）：固定於頁面頂端，包含品牌與連結 -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:4px;">
+    <a href="#home" class="w3-bar-item w3-button">Jordan</a>
+    <!-- Right-sided navbar links. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+      <a href="#about" class="w3-bar-item w3-button">About</a>
+      <a href="#menu" class="w3-bar-item w3-button">Store</a>
+      <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+    </div>
+  </div>
+</div>
+
+<!-- Header -->
+<!-- 頁首區塊：主要呈現大圖與網站名稱 -->
+<header class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:500px" id="home">
+  <img class="w3-image" src="./w3images/Front.png" alt="Hamburger Catering" width="1600" height="800">
+  <div class="w3-display-bottomleft w3-padding-large w3-opacity">
+    <h1 class="w3-xxlarge">Jordan Brand</h1>
+  </div>
+</header>
+
+<!-- Page content -->
+<!-- 主內容：包含 About、Menu、Contact 等區塊 -->
+<div class="w3-content" style="max-width:1100px">
+
+  <!-- About Section -->
+  <!-- About：關於公司/服務的介紹 -->
+  <div class="w3-row w3-padding-64" id="about">
+    <div class="w3-col m6 w3-padding-large w3-hide-small">
+     <img src="./w3images/Jordan1.jpg" class="w3-round w3-image w3-opacity-min" alt="Table Setting" width="600" height="750">
+    </div>
+
+    <div class="w3-col m6 w3-padding-large">
+      <h1 class="w3-center">About Jordan</h1><br>
+      <h5 class="w3-center">It was officially launched on September 9, 1997, following the immense success of the original Air Jordan sneakers, which first debuted in 1984 and were released to the public in 1985.</h5>
+      <p class="w3-large">The brand was founded by Michael Jordan in collaboration with Nike’s designer Peter Moore, who helped design the first Air Jordan shoe.
+      <p class="w3-large w3-text-grey w3-hide-medium">Jordan Brand quickly became one of the most iconic names in sports and street fashion. Its logo, known as the “Jumpman”, symbolizes excellence, style, and performance. Today, Jordan Brand produces not only basketball shoes but also apparel and accessories, remaining a cultural symbol that bridges sports and lifestyle around the world.
+    </div>
+  </div>
+  
+  <hr>
+  
+  <!-- Menu Section -->
+  <!-- Menu：菜單或服務項目列表 -->
+  <div class="w3-row w3-padding-64" id="menu">
+    <div class="w3-col l6 w3-padding-large">
+      <h1 class="w3-center">Our Shoes</h1><br>
+      <h4>Air Jordan Series</h4>
+      <p class="w3-text-grey">The most iconic line, featuring numbered models from Air Jordan 1 to the latest editions. Each model shows the evolution of basketball shoe design and technology.</p><br>
+    
+      <h4>Air Jordan 1</h4>
+      <p class="w3-text-grey">The first and most classic model, made with premium leather and known for its timeless style.</p><br>
+    
+      <h4>Air Jordan 11</h4>
+      <p class="w3-text-grey">Famous for its patent leather design and worn by Michael Jordan during his NBA comeback.</p><br>
+    
+      <h4>Air Jordan 36 & newer models</h4>
+      <p class="w3-text-grey">Focus on lightweight materials, advanced cushioning, and modern performance features.</p><br>
+    
+      <h4>Jordan Lifestyle Shoes</h4>
+      <p class="w3-text-grey">Designed for casual wear, combining comfort and street style.</p>    
+    </div>
+    
+    <div class="w3-col l6 w3-padding-large">
+      <img src="./w3images/Jordan2.jpg" class="w3-round w3-image w3-opacity-min" alt="Menu" style="width:100%">
+    </div>
+  </div>
+
+  <hr>
+
+  <!-- Contact Section -->
+  <!-- Contact：聯絡資訊與聯絡表單 -->
+  <div class="w3-container w3-padding-64" id="contact">
+    <h1>Contact</h1><br>
+    <p>We offer full-service at 12:30–21:30</p>
+    <p class="w3-text-blue-grey w3-large"><b>108台北市萬華區昆明街92號</b></p>
+    <p>You can also contact us by phone 0223752235</p>
+  </div>
+  
+<!-- Image of location/map -->
+<div class="w3-container">
+ <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3614.671792004155!2d121.50542089999999!3d25.045209999999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442a9099f9699a3%3A0x3a98a7e9768cf0da!2zTmlrZee2k-mKt-WVhumWgOW4giAtIEpvcmRhbiBYaW1lbmRpbmcg6KW_6ZaA55S6!5e0!3m2!1szh-TW!2stw!4v1761010381609!5m2!1szh-TW!2stw" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+
+<!-- End page content -->
+</div>
+
+<!-- Footer -->
+<!-- 網站頁尾：版權或外部連結資訊 -->
+<footer class="w3-center w3-light-grey w3-padding-32">
+  <p>Powered by <a href="https://www.google.com.tw/maps/place/Nike%E7%B6%93%E9%8A%B7%E5%95%86%E9%96%80%E5%B8%82+-+Jordan+Ximending+%E8%A5%BF%E9%96%80%E7%94%BA/@25.04521,121.5054209,15z/data=!3m1!5s0x3442a908d45f8ed9:0xe8dc6066ddcadb75!4m15!1m8!3m7!1s0x3442a9099f9699a3:0x3a98a7e9768cf0da!2zTmlrZee2k-mKt-WVhumWgOW4giAtIEpvcmRhbiBYaW1lbmRpbmcg6KW_6ZaA55S6!8m2!3d25.0452269!4d121.5053372!10e1!16s%2Fg%2F11g6x8pfmf!3m5!1s0x3442a9099f9699a3:0x3a98a7e9768cf0da!8m2!3d25.0452269!4d121.5053372!16s%2Fg%2F11g6x8pfmf?entry=ttu&g_ep=EgoyMDI1MTAxOS4wIKXMDSoASAFQAw%3D%3D" title="W3.CSS" target="_blank" class="w3-hover-text-green">Jordan Ximending</a></p>
+</footer>
+
+</body>
+</html>
